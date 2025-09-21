@@ -13,6 +13,11 @@ function handleResult(event) {
   if (transcript.indexOf("hello") !== -1) {
     output.textContent += " hello";
   }
+
+  if (transcript.indexOf("ynet") !== -1) {
+    output.textContent += " ynet";
+    window.open("https://ynet.co.il", "_blank");
+  }
 }
 
 // פונקציה רגילה להפעלה מחדש
