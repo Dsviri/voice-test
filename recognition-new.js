@@ -14,7 +14,7 @@ function handleResult(event) {
     output.textContent += " hello";
   }
 
-  if (transcript.indexOf("ynet") !== -1) {
+  if (transcript.indexOf("net") !== -1) {
     output.textContent += " ynet";
     window.open("https://ynet.co.il", "_blank");
   }
